@@ -19,7 +19,10 @@ try {
     var header, midder, footer;
 
     // declare content wrappers
-    header = '<div class="masonryOrganizerWrapper contentItem" id="id' + content.getID() + '" data-position-default="Main" data-position-selected="Main"><div class="masonryOrganizer standardContent card-group"><div class="gridOrganizerExtra"></div>';
+    header ='<div class="masonryOrganizerWrapper contentItem" id="id' + content.getID() + '" \
+                data-position-default="Main" data-position-selected="Main"> \
+                <div class="masonryOrganizer standardContent card-group"> \
+                <div class="masonryOrganizerExtra"></div>';
     midder = '<span></span>';
     footer = '</div><div class="masonryOrganizer ToggleExtra boxlinks" style="display:none">Show More</div></div>';
 
